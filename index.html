@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="author" content="Maria Mateeva-Georgieva">
+  <meta name="title" content="Battleships">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Battleships game</title>
+</head>
+
+<body>
+  <p id="output"></p>
+  <table>
+      <tr>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr id="row0">
+        <td>A</td>
+      </tr>
+      <tr id="row1">
+        <td>B</td> 
+      </tr>
+      <tr id="row2">
+        <td>C</td> 
+      </tr>
+      <tr id="row3">
+        <td>D</td> 
+      </tr>
+      <tr id="row4">
+        <td>E</td> 
+      </tr>
+      <tr id="row5">
+        <td>F</td> 
+      </tr>
+      <tr id="row6">
+        <td>G</td> 
+      </tr>
+      <tr id="row7">
+        <td>H</td> 
+      </tr>
+      <tr id="row8">
+        <td>I</td> 
+      </tr>
+      <tr id="row9">
+        <td>J</td>
+      </tr>
+  </table>
+  <div>
+    Enter coordinates (row, col), e.g. A5: 
+    <input type="text" id="submitInput" size="5">
+    <button id="submitButton">Submit</button>
+  </div>
+  <p id="gameOver"></p>
+  <script src="ships.js"></script>
+</body>
+</html>
